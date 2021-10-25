@@ -1,0 +1,1 @@
+<link href="{{ asset('public/admin_layout/css/custom.css')}}?v={{ $version }}" rel="stylesheet" type="text/css"/>

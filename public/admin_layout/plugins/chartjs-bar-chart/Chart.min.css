@@ -1,0 +1,10 @@
+#bar-chart{
+    background-color:#fff;
+    font-family: Lato, Helvetica-Neue, monospace;
+	max-width:100%;
+}
+#bar-canvas{
+	min-width:100%;
+}
+
+

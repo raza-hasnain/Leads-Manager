@@ -1,0 +1,50 @@
+{!!Form::open(['route'=>'payment.add_status','id'=>'country-update-form']) !!}
+<div class="modal-header">
+    <h5 class="modal-title">@lang('layout.source')</h5>
+    <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+</div>
+<div class="modal-body">
+
+    
+       <div class="form-group row pt-2">
+                          <label class="col-lg-3 col-form-label text-left">
+                            @lang('layout.title') @required
+                          </label>
+                          <div class="col-lg-6"> 
+                          @if(isset($status)) <input type="hidden" name="id" value="{{clean($status->id)}}"> @endif
+                             <input id="name" type="text" class="form-control" name="title"  placeholder="@lang('layout.title')" required @if(isset($status)) value="{{clean($status->title)}}" @endif>
+                            
+                          </div>
+                          </div> 
+      <div class="form-group row pt-2">
+                           <label class="col-lg-3 col-form-label text-left">
+                            @lang('layout.type') @required
+                          </label>
+                          <div class="col-lg-6"> 
+                         
+                          
+                          <select name="type" class="form-control">
+                          <option  value="1" @if(isset($status) && $status->type == 1) selected @endif>@lang('layout.other')</option>
+                           <option  value="0" @if(isset($status) && $status->type == 0) selected @endif>@lang('layout.cash')</option>
+               
+            </select>
+                             
+                            
+                          </div>
+                      </div>
+                        
+                      
+
+   
+    
+</div>
+<div class="modal-footer country_submit">
+    <button type="button" class="btn btn-danger" data-dismiss="modal">@lang('layout.cancel')</button>
+    <button type="button" id="add_country" class="btn btn-base">@lang('layout.save')</button>
+</div>
+{!! Form::close() !!}
+
+<script src="{{asset('public/admin_layout/js/Modules/Settings/add_lang_modal.js')}}?v={{ $version }}"></script> 
+
+
+

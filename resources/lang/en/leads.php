@@ -1,0 +1,28 @@
+<?php
+
+return array (
+  'leads' => 'Leads',
+  'leads_total' => 'Total Leads',
+  'sales' => 'Sales',
+  'new_lead' => 'New Lead',
+  'import_leads' => 'Import Leads',
+  'proposal_sent' => 'Negotiation',
+  'source' => 'Source',
+  'filter_by' => 'Filter By',
+  'contact_history' => 'Contact History',
+  'contacted' => 'Contacted',
+  'last_contacted' => 'Last Contacted',
+  'last_contacted_by' => 'Last Contacted By',
+  'leads_added' => 'Leads added successfully!!',
+  'lead_status_changed' => 'Lead status changed successfully!!',
+  'lead_edited' => 'Lead Updated Successfully!!',
+  'lead_deleted' => 'Lead Deleted Successfully!!',
+  'lead_deletion_failed' => 'Failed to delete!! Try again',
+  'check_again' => 'Failed!! Try again!!',
+  'lead_information' => 'Lead information',
+  'please_follow_the_instraction' => 'Please follow this instraction',
+  'convert_to_customer' => 'Converting to customer',
+  'convert_to_lead' => 'Converting to Lead',
+  'contact_info' => 'Contact Info',
+  'add_summary' => 'Add Summary',
+);

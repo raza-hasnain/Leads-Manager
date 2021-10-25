@@ -1,0 +1,13 @@
+{
+    "name": "FacebookPost",
+    "alias": "facebookpost",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\FacebookPost\\Providers\\FacebookPostServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

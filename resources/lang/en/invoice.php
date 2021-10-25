@@ -1,0 +1,76 @@
+<?php
+
+return array (
+  
+  'rate' => 'Rate',
+  'amount' => 'Amount',
+  
+  'total' => 'Total',
+  
+  'date' => 'Data',
+  'terms_and_condition' => 'Terms And Condition',
+  'client_note' => 'Client Note',
+  'admin_note' => 'Admin Note',
+  'shipping_zip_code' => 'Shipping Zip Code',
+  'shipping_city' => 'Shipping City',
+ 	'shipping_address' => 'Shipping Address',
+ 	'phone' => 'Phone',
+ 	'customer_name' => 'Customer Name',
+ 	'currency' => 'Currency',
+ 	'discount_type' => 'Discount Type',
+ 	'reference' => 'Reference',
+ 	'allow_partial_payment' => 'Allow Partial Payment',
+ 	'customer_info' => 'Customer Info',
+ 	'shipping_address' => 'Shipping Address',
+ 	'shipping_info' => 'Shipping Info',
+ 	'fixed_amount' => 'Fixed Amount',
+ 	'adjustment' => 'Adjustment',
+ 	'discount' =>  'Discount',
+ 	'allow_partial_payment' => 'Allow Partial Payment',
+ 	'invoice_setting' => 'Invoice Setting',
+ 	  'status_changed' => 'Invoice Status Changed',
+  'check_again' => 'Try again!!',
+  
+  'due_date' => 'Due Date',
+  'invoice' => 'Invoice',
+  'payment' => 'Payment',
+  'settings' => 'Settings',
+
+  'item' => 'Items',
+  'qty' => 'Qty',
+  'tax' => 'Tax',
+
+  'bill_to:' => 'Bill To',
+  'discount_amount' => 'Discount amount',
+  'total_paid' => 'Total Paid',
+  'amount_due' => 'Amount Due',
+  'print' => 'Print',
+  'download' => 'Download',
+  'f' => 'F',
+  'invoice_create_successfully' => 'Invoice Created Successfully!!',
+  
+  'transaction_id' => 'Tansaction Id',
+  'payment_type' => 'Payment Type',
+  'due' => 'Due',
+  'invoice_number' => 'Invoice Number',
+  'bank_name' => 'Bank name/card name',
+  'transcation_number' => 'Transcation Number',
+  'swift_no' => 'Swift No',
+  'paid_date' => 'Paid Date',
+  'sign_by' => 'Sign By',
+  'recived_by' => 'Recived By',
+  'new_payment' => 'New Payment',
+  'new_invoice' => 'New Invoice',
+  'sub_total' => 'Sub Total',
+  'view_payment' => 'View Payment',
+  'Bank_name' => 'Bank Name',
+    'IBAN' => 'IBAN',
+  'SWIFT_code' => 'SWIIFT CODE',
+  'not_editable' => 'This invoice are not editable',
+  'invoice_total' => 'Invoice Total',
+  'add_payment' => 'Add payment',
+  'create_by' => 'Create By',
+  'date_and_time' => 'Date and time'
+
+
+);

@@ -1,0 +1,7 @@
+{
+    "Customer": true,
+    "Lead": true,
+    "FacebookPost": true,
+    "Sales": true,
+    "Settings": true
+}

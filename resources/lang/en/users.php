@@ -1,0 +1,33 @@
+<?php
+
+return array (
+  'users' => 'Users',
+  'user_list' => 'User List',
+  'invite' => 'Invite colleague List',
+  'add_user' => 'Add user',
+  'invite_user' => 'Invite User',
+  'name' => 'Name',
+  'e-mail' => 'E-mail',
+  'phone_number' => 'Phone number',
+  'role' => 'Role',
+  'user_deleted' => 'User deleted',
+  'user_deletion_failed' => 'User deletion failed',
+  'country' => 'Country',
+  'add_new_user' => 'Add new user',
+  'full_name' => 'Full name',
+  'edit_user' => 'Edit user',
+  'user_has_been_created' => 'User has been created',
+  'user_was_updated' => 'User was updated',
+  'change_password' => 'Change password',
+  'confirm_password' => 'Confirm password',
+  'new_password' => 'New password',
+  'password_has_been_changed' => 'Password has been changed',
+  'edit_profile' => 'Edit profile',
+  'profile_has_been_updated' => 'Profile has been updated',
+  'my_profile' => 'My profile',
+  'user' => 'User',
+  'only_change_this_if_you_want_to_change_the_users_password' => 'Only change this if you want to edit the users password.',
+  'invited_successfully' =>'Invited Successfully !!',
+  'status' =>'Status',
+  
+);
